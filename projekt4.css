@@ -1,0 +1,85 @@
+#homePage {
+    height: 100vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#ToolBox {
+    background-color: #ffdecb;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Director {
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #4d4d4d;
+    margin-left: 10px;
+}
+
+.Director:hover {
+    height: 25px;
+
+}
+
+#futer {
+    background-color: black;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.futerText {
+    color: white;
+    margin: 10px;
+}
+
+.img2 {
+    height: 20px;
+    margin-top: 10px;
+}
+
+
+h1 {
+    margin-left: 570px;
+    margin-top: -50px;
+    size: 50px;
+}
+
+#mainPaige {
+    background-color: #e1bba5;
+}
+
+#main {
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 70px;
+    background-color: rgb(231, 195, 141);
+    display: flex;
+    border: 1px black solid;
+    border-radius: 20px;
+
+}
+
+#pic {
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+    object-fit: contain;
+}
+
+#divimg {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-end-start-radius: 20px;
+}
+
+#divimg2 {
+    padding-left: 50px;
+}
